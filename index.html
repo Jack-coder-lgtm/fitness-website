@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1>Fitness Journey</h1>
+      <p>Train hard. Stay consistent. Believe always.</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#workouts">Workouts</a></li>
+          <li><a href="#quotes">Quotes</a></li>
+          <li><a href="login.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="workouts">
+      <h2>Popular Workouts</h2>
+      <div class="workout-cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1594737625785-c33c61f5e142" alt="Full Body" />
+          <h3>Full Body Workout</h3>
+          <ul>
+            <li>Push-ups</li>
+            <li>Squats</li>
+            <li>Plank</li>
+            <li>Burpees</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Core" />
+          <h3>Core Workout</h3>
+          <ul>
+            <li>Leg Raises</li>
+            <li>Russian Twists</li>
+            <li>Mountain Climbers</li>
+            <li>Crunches</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1571019613914-85f342c55f75" alt="Upper Body" />
+          <h3>Upper Body Workout</h3>
+          <ul>
+            <li>Pull-ups</li>
+            <li>Bicep Curls</li>
+            <li>Shoulder Press</li>
+            <li>Tricep Dips</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="quotes">
+      <h2>Fitness Motivation</h2>
+      <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba" class="quote-img" alt="Motivation" />
+      <div id="quote-container">
+        <p id="quote">"The only bad workout is the one that didn’t happen."</p>
+        <button onclick="generateQuote()">Get New Quote</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fitness Journey. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
